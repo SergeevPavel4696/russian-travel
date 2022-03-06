@@ -1,0 +1,10 @@
+.place__website {
+    position: relative;
+}
+
+@media screen and (max-width: 740px){
+    .place__website {
+        margin: 0 auto;
+        width: 90%;
+    }
+}

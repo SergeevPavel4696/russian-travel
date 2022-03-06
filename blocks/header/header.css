@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: 900;
+    src: url(../../font-style/Inter-Black.woff2) format("woff2"),
+    url(../../font-style/Inter-Black.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url(../../font-style/Inter-Regular.woff2) format("woff2"),
+    url(../../font-style/Inter-Regular.woff) format("woff");
+}
+
+.header {
+    font-family: Inter, serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    max-width: 1350px;
+    min-width: 250px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 28px 0 0;
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding-top: 16px;
+    }
+}

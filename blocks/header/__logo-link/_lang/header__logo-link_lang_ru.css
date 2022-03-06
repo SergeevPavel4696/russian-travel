@@ -1,0 +1,9 @@
+.header__logo-link_lang_ru {
+    right: 47px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo-link_lang_ru {
+        right: 40px;
+    }
+}

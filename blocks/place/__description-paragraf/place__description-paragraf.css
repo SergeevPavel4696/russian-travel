@@ -1,0 +1,18 @@
+.place__description-paragraf {
+    margin: 26px 0;
+    padding: 0;
+}
+
+.place__description-paragraf:first-child {
+    margin-top: 0;
+}
+
+.place__description-paragraf:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 977px){
+    .place__description-paragraf {
+        margin: 25px 0;
+    }
+}

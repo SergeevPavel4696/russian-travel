@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: 900;
+    src: url(../../font-style/Inter-Black.woff2) format("woff2"),
+    url(../../font-style/Inter-Black.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url(../../font-style/Inter-Regular.woff2) format("woff2"),
+    url(../../font-style/Inter-Regular.woff) format("woff");
+}
+
+.cover {
+    position: relative;
+    font-family: 'Inter', serif;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    width: 92.5%;
+    max-width: 1350px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+    .cover {
+        width: 100%;
+    }
+}

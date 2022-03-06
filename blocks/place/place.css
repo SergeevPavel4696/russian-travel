@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: 900;
+    src: url(../../font-style/Inter-Black.woff2) format("woff2"),
+    url(../../font-style/Inter-Black.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url(../../font-style/Inter-Regular.woff2) format("woff2"),
+    url(../../font-style/Inter-Regular.woff) format("woff");
+}
+
+.place {
+    font-family: Inter, serif;
+    -webkit-font-smoothing: antialiased;
+    display: grid;
+    margin: 80px 0;
+    padding: 0;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: repeat(2, auto);
+    gap: 48px 40px;
+    width: 100%;
+}
+
+.place:first-child {
+    margin-top: 0;
+}
+
+.place:last-child {
+    margin-bottom : 0;
+}
+
+@media screen and (max-width: 1036px){
+    .place {
+        grid-template-columns: 440px 456px;
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 977px){
+    .place {
+        grid-template-columns: 340px 352px;
+        gap: 48px 28px;
+        margin: 88px 0;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .place {
+        margin: 100px 0;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        gap: 32px;
+    }
+}
