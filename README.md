@@ -12,4 +12,4 @@
 * Гриды
 * Адаптивная вёрстка
 
-[https://sergeevpavel4696.github.io/russian-travel/](Ссылка на страницу)
+[Ссылка на страницу](https://sergeevpavel4696.github.io/russian-travel/)
