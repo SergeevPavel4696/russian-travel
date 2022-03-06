@@ -11,3 +11,5 @@
 * Флексы
 * Гриды
 * Адаптивная вёрстка
+
+(https://sergeevpavel4696.github.io/russian-travel/)[Ссылка на страницу]
